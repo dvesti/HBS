@@ -1,0 +1,44 @@
+[[module.imports]]
+path = "github.com/hbstack/hb"
+
+[[module.imports]]
+path = "github.com/hugomods/decap-cms"
+
+[params.decap_cms._preview_style_partials.hb]
+path = "hb/assets/css-resource"
+
+[params.decap_cms._configs.hb_field_comments.fields.comments]
+default = true
+widget = "boolean"
+name = "comments"
+label = "Comments"
+i18n = "duplicate"
+required = false
+hint = "Whether to show comments."
+
+[params.decap_cms._configs.hb_field_featured.fields.featured]
+default = false
+widget = "boolean"
+name = "featured"
+label = "Featured"
+i18n = true
+required = false
+hint = "Featured post will be shown on homepage carousel."
+
+[params.decap_cms._configs.hb_field_pinned.fields.pinned]
+default = false
+widget = "boolean"
+name = "pinned"
+label = "Pinned"
+i18n = true
+required = false
+hint = "Whether to pin the post on homepage and list."
+
+[params.decap_cms._configs.hb_field_toc.fields.toc]
+default = true
+widget = "boolean"
+name = "toc"
+label = "ToC (Table of Contents)"
+i18n = "duplicate"
+required = false
+hint = "Whether to show ToC (Table of Contents)."

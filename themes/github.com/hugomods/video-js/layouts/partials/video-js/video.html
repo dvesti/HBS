@@ -1,0 +1,50 @@
+<div
+  class="video-js-container">
+  {{- $class := slice "video-js vjs-default-skin" }}
+  {{- with .aspectRatio }}
+    {{- $class = $class | append (printf "vjs-%s" (replace . "x" "-")) }}
+  {{- else }}
+    {{- $class = $class | append "vjs-fluid" }}
+  {{- end }}
+  {{- $options := newScratch }}
+  {{- $options.Set "language" (partialCached "video-js/functions/lang" .) }}
+  {{- with default site.Params.video_js.playback_rates .playbackRates }}
+    {{- $options.Set "playbackRates" . }}
+  {{- end }}
+  {{- $controlBar := newScratch }}
+  {{- with default site.Params.video_js.skip_forward .skipForward }}
+    {{- $controlBar.SetInMap "skipButtons" "forward" . }}
+  {{- end }}
+  {{- with default site.Params.video_js.skip_backward .skipBackward }}
+    {{- $controlBar.SetInMap "skipButtons" "backward" . }}
+  {{- end }}
+  {{- with $controlBar.Values }}
+    {{- $options.Set "controlBar" . }}
+  {{- end }}
+  {{- $ext := path.Ext .src | strings.TrimPrefix "." }}
+  {{- $types := dict
+    "m3u8" "application/x-mpegURL"
+    "mpd" "application/dash+xml"
+  }}
+  {{- $type := default "" .type }}
+  {{- if eq $type "" }}
+    {{- with index $types $ext }}
+      {{- $type = . }}
+    {{- end }}
+  {{- end }}
+  <video
+    data-setup="{{ $options.Values | jsonify }}"
+    width="100%"
+    height="100%"
+    class="{{ delimit $class ` ` }}"
+    {{ with .poster }}poster="{{ . }}"{{ end }}
+    {{ if default false .muted }}muted{{ end }}
+    {{ if default true .controls }}controls{{ end }}
+    {{ if default false .loop }}loop{{ end }}
+    {{ if default false .preload }}preload="auto"{{ end }}
+    {{ if default false .autoplay }}autoplay{{ end }}>
+    <source
+    src="{{ .src }}"
+    {{ with $type }}type="{{ . }}"{{ end }}>
+  </video>
+</div>

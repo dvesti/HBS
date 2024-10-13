@@ -1,0 +1,94 @@
+{{- $rst := newScratch }}
+{{/* Walk the collections. */}}
+{{- $collectionCount := len . }}
+{{- range $i, $collection := . }}
+  {{/* Indicates whether if current collection the last one. */}}
+  {{- $last := eq $collectionCount (add $i 1) }}
+  {{/* Walk the collection's definitions. */}}
+  {{- range $key, $items := . }}
+    {{- with $rst.Get $key }}
+      {{/* Start deep merging if the key already exists. */}}
+      {{- $values := . }}
+      {{- if reflect.IsSlice $items }}
+        {{/* Start array merging. */}}
+        {{/* Walk the definitions. */}}
+        {{- range $items }}
+          {{- $exist := false }}
+          {{- $item := . }}
+          {{- if not (partial "decap-cms/functions/is-field-definition" $item) }}
+            {{- break }}
+          {{- end }}
+          {{- range $k, $v := $values }}
+            {{- if not (partial "decap-cms/functions/is-field-definition" .) }}
+              {{- break }}
+            {{- end }}
+            {{- if eq $item.name .name }}
+              {{- $exist = true }}
+              {{- $former := first $k $values }}
+              {{- $latter := after (add $k 1) $values }}
+              {{- $values = $former | append $item }}
+              {{- range $latter }}
+                {{- $values = $values | append . }}
+              {{- end }}
+              {{- break }}
+            {{- end }}
+          {{- end }}
+          {{- if not $exist }}
+            {{- $values = $values | append . }}
+          {{- end }}
+        {{- end }}
+        {{- $rst.Set $key $values }}
+      {{- else if reflect.IsMap $items }}
+        {{/* Start map merging. */}}
+        {{- if eq $key "fields" }}
+          {{/* Calculate fields weight. */}}
+          {{- $fieldWeight := len $values }}
+          {{- $fields := newScratch }}
+          {{- range sort $items "_weight" }}
+            {{- $fieldName := .name }}
+            {{- $field := partial "decap-cms/functions/dict2scratch" . }}
+            {{- $currentWeight := $field.Get "_weight" }}
+            {{/* Ignore disabled field. */}}
+            {{- if default false ($field.Get "_disable") }}
+              {{- if isset $values $fieldName }}
+                {{- $newValues := newScratch }}
+                {{- $newValues.Set "v" $values }}
+                {{- $newValues.DeleteInMap "v" $fieldName }}
+                {{- $values = $newValues.Get "v" }}
+              {{- end }}
+              {{- continue }}
+            {{- end }}
+            {{- if isset $values $fieldName }}
+              {{- with $currentWeight }}
+                {{/* Override the weight if presents and belongs to the last collection. */}}
+                {{- if or (not $last) (eq . 1) }}
+                  {{- $field.Delete "_weight" }}
+                {{- end }}
+              {{- end }}
+            {{- else }}
+              {{/* Keep the specified weight if the field belongs to the last collection. */}}
+              {{- if or (not $last) (not $currentWeight) (eq $currentWeight 1) }}
+                {{- $fieldWeight = add $fieldWeight 1 }}
+                {{- $field.Set "_weight" $fieldWeight }}
+              {{- end }}
+            {{- end }}
+            {{- $tmp := dict }}
+            {{- range $k, $v := $field.Values }}
+              {{- $tmp = merge $tmp (dict $k $v) }}
+            {{- end }}
+            {{- $fields.Set $fieldName $tmp }}
+          {{- end }}
+          {{- $items = $fields.Values }}
+        {{- end }}
+        {{- $rst.Set $key (merge $values $items) }}
+      {{- else }}
+        {{/* Just replace the previous values if it's any other type. */}}
+        {{- $rst.Set $key $items }}
+      {{- end }}
+    {{- else }}
+      {{/* Add if it doesn't exist. */}}
+      {{- $rst.Set $key $items }}
+    {{- end }}
+  {{- end }}
+{{- end }}
+{{- return $rst }}

@@ -1,0 +1,43 @@
+{{- $data := newScratch }}
+{{- $service := default "github" .service }}
+{{- $params := default dict site.Params.hb.header.git_repo }}
+{{- if eq $service "github" }}
+  {{- $opts := newScratch }}
+  {{- with getenv "GITHUB_TOKEN" }}
+    {{- $opts.SetInMap "headers" "Authorization" (printf "Bearer %s" .) }}
+  {{- end }}
+  {{- with resources.GetRemote (printf "https://api.github.com/repos/%s/%s" .owner .name) $opts.Values }}
+    {{- with .Err }}
+      {{- errorf "[git-repo] unable to fetch repo information from GitHub: %s." . }}
+    {{- else }}
+      {{- $repo := .Content | transform.Unmarshal }}
+      {{- $data.Set "Title" $repo.full_name }}
+      {{- $data.Set "URL" $repo.html_url }}
+      {{- $data.Set "Stars" $repo.stargazers_count }}
+      {{- $data.Set "Forks" $repo.forks_count }}
+    {{- end }}
+  {{- end }}
+  {{- if default true $params.tag }}
+    {{- with resources.GetRemote (printf "https://api.github.com/repos/%s/%s/releases/latest" .owner .name) $opts.Values }}
+      {{- with .Err }}
+        {{- errorf "[git-repo] unable to fetch latest release from GitHub: %s." . }}
+      {{- else }}
+        {{- $release := .Content | transform.Unmarshal }}
+        {{- $data.Set "Tag" $release.tag_name }}
+      {{- end }}
+    {{- end }}
+  {{- end }}
+  {{- with $params.docker }}
+    {{- with resources.GetRemote (printf "https://hub.docker.com/v2/repositories/%s/%s" .namespace .name) }}
+      {{- with .Err }}
+        {{- errorf "[git-repo] unable to fetch stats from DockerHub: %s." . }}
+      {{- else }}
+        {{- $dockerHubData := .Content | transform.Unmarshal }}
+        {{- $data.Set "DockerPulls" $dockerHubData.pull_count }}
+      {{- end }}
+    {{- end }}
+  {{- end }}
+{{- else }}
+  {{- warnf "[github.com/hbstack/header/modules/git-repo] unsupported service: %s" .service }}
+{{- end }}
+{{- return $data.Values }}

@@ -1,0 +1,34 @@
+.hb-module {
+  @extend .rounded;
+
+  background: #fff;
+  padding: .75rem;
+
+  &:hover {
+    @extend .shadow-sm;
+  }
+
+  > :last-child {
+    margin-bottom: 0 !important;
+  }
+}
+
+.hb-footer {
+  background-color: #fff !important;
+}
+
+@include color-mode(dark) {
+  .hb-module {
+    background: #1e1e1e;
+  }
+
+  .hb-footer {
+    background: #1e1e1e !important;
+  }
+}
+
+.hb-blog-home-carousel {
+  .hb-module {
+    padding: 0 !important;
+  }
+}

@@ -1,0 +1,42 @@
+{{- $items := slice -}}
+{{- $indexContent := default false site.Params.search.index_content -}}
+{{- $years := true }}
+{{- $pages := partial "search/functions/pages" . -}}
+{{- range $pages -}}
+  {{- $page := . -}}
+  {{- $item := newScratch -}}
+  {{- $item.Set "title" .Title -}}
+  {{- if default true site.Params.search.index_summary -}}
+    {{- $item.Set "summary" (default .Summary .Description | plainify | htmlUnescape) -}}
+  {{- end -}}
+  {{- if $indexContent }}
+    {{- $item.Set "content" .Plain }}
+  {{- end }}
+  {{- $item.Set "kind" .Kind -}}
+  {{- $item.Set "lang" .Language.Lang -}}
+  {{- $item.Set "url" (cond hugo.IsMultihost .Permalink .RelPermalink) -}}
+  {{- $item.Set "date" .Date.Unix -}}
+  {{- if $years -}}
+    {{- $item.Set "year" (.Date.Format "2006") -}}
+  {{- end -}}
+  {{/* Image */}}
+  {{- if or $page.Params.images ($page.Resources.GetMatch "{*feature*,*cover*,*thumbnail*}") -}}
+    {{- with partial "_funcs/get-page-images" $page -}}
+      {{- $img := index . 0 -}}
+      {{- $item.Set "img" (cond hugo.IsMultihost $img.Permalink $img.RelPermalink) -}}
+    {{- end -}}
+  {{- end -}}
+  {{- if default true site.Params.search.index_headings -}}
+    {{- $item.Set "headings" (partialCached "search/functions/parse-headings" . .) -}}
+  {{- end }}
+  {{/* Taxonomies */}}
+  {{- if default true site.Params.search.index_taxonomies -}}
+    {{- range $name, $taxonomy := site.Taxonomies -}}
+      {{- range $page.GetTerms $name -}}
+        {{- $item.Add $name (slice .Title) }}
+      {{- end -}}
+    {{- end -}}
+  {{- end }}
+  {{- $items = $items | append $item.Values -}}
+{{- end -}}
+{{- $items | jsonify -}}

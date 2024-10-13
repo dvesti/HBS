@@ -1,0 +1,11 @@
+[[module.imports]]
+path = "github.com/hbstack/header"
+
+[[module.imports]]
+path = "github.com/hugomods/docsearch"
+
+[params.hugopress.modules.hb-header-docsearch.hooks.hb-header-togglers-begin]
+cacheable = true
+
+[params.docsearch]
+container = "#hb-header-docsearch"

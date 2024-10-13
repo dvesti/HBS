@@ -1,0 +1,45 @@
+{{- $src := "" }}
+{{- $poster := "" }}
+{{- $type := "" }}
+{{- $muted := false }}
+{{- $controls := true }}
+{{- $loop := false }}
+{{- $preload := false }}
+{{- $autoplay := false }}
+{{- $aspectRatio := "" }}
+{{- $playbackRates := "" }}
+{{- $skipForward := 0 }}
+{{- $skipBackward := 0 }}
+{{- if .IsNamedParams }}
+  {{- $src = .Get "src" }}
+  {{- with .Get "type" }}{{ $type = . }}{{ end }}
+  {{- with .Get "poster" }}{{ $poster = . }}{{ end }}
+  {{- if isset .Params "muted" }}{{ $muted = .Get "muted" }}{{ end }}
+  {{- if isset .Params "controls" }}{{ $controls = .Get "controls" }}{{ end }}
+  {{- if isset .Params "loop" }}{{ $loop = .Get "loop" }}{{ end }}
+  {{- if isset .Params "preload" }}{{ $preload = .Get "preload" }}{{ end }}
+  {{- if isset .Params "autoplay" }}{{ $autoplay = .Get "autoplay" }}{{ end }}
+  {{- with .Get "aspectRatio" }}{{ $aspectRatio = . }}{{ end }}
+  {{- with .Get "playbackRates" }}{{ $playbackRates = . }}{{ end }}
+  {{- with .Get "skipForward" }}{{ $skipForward = . }}{{ end }}
+  {{- with .Get "skipBackward" }}{{ $skipBackward = . }}{{ end }}
+{{- else }}
+  {{- $src = .Get 0 }}
+{{- end }}
+{{- if $playbackRates }}
+  {{- $playbackRates = apply (split $playbackRates ",") "cast.ToInt" "." }}
+{{- end }}
+{{ partial "video-js/video" (dict
+  "src" $src
+  "poster" $poster
+  "type" $type
+  "muted" $muted
+  "controls" $controls
+  "loop" $loop
+  "autoplay" $autoplay
+  "preload" $preload
+  "aspectRatio" $aspectRatio
+  "playbackRates" $playbackRates
+  "skipForward" $skipForward
+  "skipBackward" $skipBackward
+) }}

@@ -1,0 +1,83 @@
+[cms_field_label_alias]
+other = "別名"
+
+[cms_field_label_aliases]
+other = "別名"
+
+[cms_field_label_author]
+other = "作者"
+
+[cms_field_label_authors]
+other = "作者"
+
+[cms_field_label_body]
+other = "正文"
+
+[cms_field_label_categories]
+other = "分類"
+
+[cms_field_label_category]
+other = "分類"
+
+[cms_field_label_date]
+other = "日期"
+
+[cms_field_label_description]
+other = "描述"
+
+[cms_field_label_draft]
+other = "草稿"
+
+[cms_field_label_expiry_date]
+other = "有效期"
+
+[cms_field_label_image]
+other = "圖片"
+
+[cms_field_label_images]
+other = "圖片"
+
+[cms_field_label_keyword]
+other = "關鍵詞"
+
+[cms_field_label_keywords]
+other = "關鍵詞"
+
+[cms_field_label_lastmod]
+other = "最後修改時間"
+
+[cms_field_label_layout]
+other = "佈局"
+
+[cms_field_label_link_title]
+other = "鏈接標題"
+
+[cms_field_label_noindex]
+other = "禁止索引"
+
+[cms_field_label_path]
+other = "路徑"
+
+[cms_field_label_series]
+other = "專欄"
+
+[cms_field_label_slug]
+other = "Slug"
+
+[cms_field_label_summary]
+other = "摘要"
+
+[cms_field_label_tag]
+other = "標籤"
+
+[cms_field_label_tags]
+other = "標籤"
+
+[cms_field_label_title]
+other = "標題"
+
+[cms_field_label_type]
+other = "類型"
+
+[cms_field_label_weight]
+other = "權重"

@@ -1,0 +1,18 @@
+.mermaid {
+    margin-bottom: 1rem;
+    overflow: auto;
+    text-align: center;
+
+    &:not([data-processed="true"]) {
+        height: 120px;
+        color: var(--#{$prefix}secondary);
+
+        &::after {
+            @extend .spinner-border;
+
+            content: "";
+            margin: 0 0 0 0.25rem;
+            position: absolute;
+        }
+    }
+}

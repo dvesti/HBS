@@ -1,0 +1,5 @@
+{{- $locales := slice }}
+{{- range site.Languages }}
+  {{- $locales = $locales | append .LanguageCode }}
+{{- end }}
+{{- return $locales }}

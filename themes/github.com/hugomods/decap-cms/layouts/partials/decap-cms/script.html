@@ -1,0 +1,16 @@
+{{- $jsURL := default "" site.Params.decap_cms._js_url }}
+{{/* TODO: remove js_url parameter. */}}
+{{- with site.Params.decap_cms.js_url }}
+  {{- warnf "[decap-cms] js_url is deprecated, use _js_url instead." }}
+  {{- $jsURL = . }}
+{{- end }}
+{{- with $jsURL }}
+  <script src="{{ . }}"></script>
+{{- else }}
+  {{- $js := resources.Get "decap-cms/index.js" }}
+  {{- $js = slice $js | resources.Concat "js/decap-cms.js" }}
+  {{- if hugo.IsProduction }}
+    {{- $js = $js | fingerprint }}
+  {{- end }}
+  <script src="{{ $js.RelPermalink }}"></script>
+{{- end }}

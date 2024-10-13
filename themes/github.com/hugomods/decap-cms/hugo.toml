@@ -1,0 +1,196 @@
+[module.hugoVersion]
+min = "0.111.3"
+# extended = true
+
+[[module.imports]]
+path = "github.com/hugomods/hugopress"
+
+[outputFormats]
+[outputFormats.DecapCMSConfig]
+baseName = "decap-cms-config"
+isHTML = false
+notAlternative = true
+mediaType = "application/yaml"
+
+[params.decap_cms]
+sass_transpiler = "dartsass"
+_js_url = ""
+# local_backend = false
+publish_mode = "editorial_workflow"
+media_folder = "static/images/uploads"
+public_folder = "/images/uploads"
+search = true
+_preview_styles = []
+
+[params.decap_cms._preview_style_partials]
+
+[params.decap_cms._configs.field_aliases.fields.alias]
+i18n = true
+name = "aliases"
+label = "Aliases"
+required = false
+widget = "list"
+summary = "{{fields.alias}}"
+collapsed = true
+minimize_collapsed = true
+[params.decap_cms._configs.field_aliases.fields.alias.field]
+label = "Alias"
+name = "alias"
+widget = "string"
+
+[params.decap_cms._configs.field_authors.fields.authors]
+i18n = true
+name = "authors"
+label = "Authors"
+required = false
+widget = "strings"
+
+[params.decap_cms._configs.field_body.fields.body]
+i18n = true
+name = "body"
+label = "Body"
+widget = "markdown"
+
+[params.decap_cms._configs.field_categories.fields.categories]
+i18n = true
+name = "categories"
+label = "Categories"
+required = false
+widget = "strings"
+
+[params.decap_cms._configs.field_date.fields.date]
+i18n = true
+name = "date"
+label = "Date"
+widget = "datetime"
+picker_utc = true
+
+[params.decap_cms._configs.field_description.fields.description]
+i18n = true
+name = "description"
+label = "Description"
+widget = "text"
+required = false
+
+[params.decap_cms._configs.field_draft.fields.draft]
+i18n = true
+name = "draft"
+label = "Draft"
+default = true
+widget = "boolean"
+
+[params.decap_cms._configs.field_expiry_date.fields.expiry_date]
+i18n = true
+name = "expiryDate"
+label = "Expiry Date"
+widget = "datetime"
+picker_utc = true
+required = false
+default = ""
+
+[params.decap_cms._configs.field_images.fields.images]
+i18n = true
+name = "images"
+label = "Images"
+required = false
+widget = "list"
+summary = "{{fields.image}}"
+collapsed = true
+minimize_collapsed = true
+[params.decap_cms._configs.field_images.fields.images.field]
+label = "Image"
+name = "image"
+widget = "image"
+
+[params.decap_cms._configs.field_keywords.fields.keywords]
+i18n = true
+name = "keywords"
+label = "Keywords"
+required = false
+widget = "strings"
+
+[params.decap_cms._configs.field_lastmod.fields.lastmod]
+i18n = true
+name = "lastmod"
+label = "Lastmod"
+widget = "datetime"
+picker_utc = true
+required = false
+default = ""
+
+[params.decap_cms._configs.field_layout.fields.layout]
+i18n = "duplicate"
+name = "layout"
+label = "Layout"
+required = false
+widget = "string"
+
+[params.decap_cms._configs.field_link_title.fields.link_title]
+i18n = true
+name = "linkTitle"
+label = "Link Title"
+required = false
+widget = "string"
+
+[params.decap_cms._configs.field_noindex.fields.noindex]
+i18n = true
+name = "noindex"
+label = "Noindex"
+widget = "boolean"
+required = false
+
+[params.decap_cms._configs.field_series.fields.series]
+i18n = true
+name = "series"
+label = "Series"
+required = false
+widget = "strings"
+
+[params.decap_cms._configs.field_slug.fields.slug]
+i18n = "duplicate"
+name = "slug"
+label = "Slug"
+required = false
+widget = "string"
+
+[params.decap_cms._configs.field_summary.fields.summary]
+i18n = true
+name = "summary"
+label = "Summary"
+widget = "text"
+required = false
+
+[params.decap_cms._configs.field_tags.fields.tags]
+i18n = true
+name = "tags"
+label = "Tags"
+required = false
+widget = "strings"
+
+[params.decap_cms._configs.field_title.fields.title]
+i18n = true
+name = "title"
+label = "Title"
+widget = "string"
+
+[params.decap_cms._configs.field_type.fields.type]
+i18n = "duplicate"
+name = "type"
+label = "Type"
+required = false
+widget = "string"
+
+[params.decap_cms._configs.field_weight.fields.weight]
+i18n = true
+name = "weight"
+label = "Weight"
+required = false
+widget = "number"
+
+[params.decap_cms._configs.meta_path.meta.path]
+widget = "string"
+label = "Path"
+index_file = "index"
+
+[params.decap_cms._configs.nested.nested]
+depth = 5

@@ -1,0 +1,90 @@
+{
+    "$schema": "https://raw.githubusercontent.com/googleapis/release-please/main/schemas/config.json",
+    "bootstrap-sha": "347bc73e75e34371d8235cb2b5c4c9ee784091cc",
+    "monorepo-tags": true,
+    "release-type": "go",
+    "tag-separator": "/",
+    "changelog-sections": [
+        { "type": "chore", "section": "Miscellaneous Chores", "hidden": true },
+        { "type": "ci", "section": "Continuous Integration" },
+        { "type": "docs", "section": "Documentation 📝" },
+        { "type": "feat", "section": "Features ✨" },
+        { "type": "feature", "section": "Features ✨" },
+        { "type": "fix", "section": "Bug Fixes 🐞" },
+        { "type": "perf", "section": "Performance Improvements ⚡️" },
+        { "type": "style", "section": "Styles 🎨" }
+    ],
+    "packages": {
+        ".": {
+            "exclude-paths": [
+                "modules"
+            ]
+        },
+        "modules/breadcrumb": {
+            "component": "modules/breadcrumb"
+        },
+        "modules/content-panel": {
+            "component": "modules/content-panel"
+        },
+        "modules/decap-cms": {
+            "component": "modules/decap-cms"
+        },
+        "modules/disqus": {
+            "component": "modules/disqus"
+        },
+        "modules/emote": {
+            "component": "modules/emote"
+        },
+        "modules/featured-image": {
+            "component": "modules/featured-image"
+        },
+        "modules/giscus": {
+            "component": "modules/giscus"
+        },
+        "modules/heading-sign": {
+            "component": "modules/heading-sign"
+        },
+        "modules/post-authors": {
+            "component": "modules/post-authors"
+        },
+        "modules/post-nav": {
+            "component": "modules/post-nav"
+        },
+        "modules/related-posts": {
+            "component": "modules/related-posts"
+        },
+        "modules/revision": {
+            "component": "modules/revision"
+        },
+        "modules/sidebar/posts": {
+            "component": "modules/sidebar/posts"
+        },
+        "modules/sidebar/profile": {
+            "component": "modules/sidebar/profile"
+        },
+        "modules/sidebar/taxonomies": {
+            "component": "modules/sidebar/taxonomies"
+        },
+        "modules/sidebar/search": {
+            "component": "modules/sidebar/search"
+        },
+        "modules/social-share-buttons": {
+            "component": "modules/social-share-buttons"
+        },
+        "modules/staticman": {
+            "component": "modules/staticman"
+        },
+        "modules/sticky-till-the-end": {
+            "component": "modules/sticky-till-the-end"
+        },
+        "modules/toc-scrollspy": {
+            "component": "modules/toc-scrollspy"
+        },
+        "modules/twikoo": {
+            "component": "modules/twikoo"
+        },
+        "modules/utterances": {
+            "component": "modules/utterances"
+        }
+    }
+}

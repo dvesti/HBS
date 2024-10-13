@@ -1,0 +1,21 @@
+[[module.imports]]
+path = "github.com/hugomods/search"
+
+[[module.imports]]
+path = "github.com/hbstack/hb"
+
+[params.hugopress.modules.search.hooks.head-end]
+disabled = true
+
+[params.hugopress.modules.search.hooks.body-end]
+disabled = true
+
+[params.hugopress.modules.hb-search.hooks.head-end]
+cacheable = true
+
+[params.hugopress.modules.hb-search.hooks.body-end]
+cacheable = true
+cache_site_param_key = "hb.search.modal"
+
+[params.hb.search]
+modal = true

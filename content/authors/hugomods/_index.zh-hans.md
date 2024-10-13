@@ -1,0 +1,9 @@
+---
+description: HugoMods 代码和文档的贡献者
+images:
+- https://avatars.githubusercontent.com/u/128204519?s=200&v=4
+socials:
+  github: hugomods
+  gmail: mailto:support@hugomods.com
+title: HugoMods Authors
+---
