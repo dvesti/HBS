@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>News on HB Cards Theme</title>
-    <link>http://localhost:4321/news/</link>
-    <description>Recent content in News on HB Cards Theme</description>
+    <title>News on HBS</title>
+    <link>http://localhost:4321/HBS/news/</link>
+    <description>Recent content in News on HBS</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <copyright>Copyright © 2022-2024 Hugo Modules and HB Framework. All Rights Reserved.</copyright>
+    <copyright>Copyright © 2024-2024 Hugo Modules and HB Framework. All Rights Reserved.</copyright>
     <lastBuildDate>Sun, 26 Nov 2023 16:26:40 +0800</lastBuildDate>
-    <atom:link href="http://localhost:4321/news/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:4321/HBS/news/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>First Version is out.</title>
-      <link>http://localhost:4321/news/2023/11/first-version-is-out./</link>
+      <link>http://localhost:4321/HBS/news/2023/11/first-version-is-out./</link>
       <pubDate>Sun, 26 Nov 2023 16:26:40 +0800</pubDate>
-      <guid>http://localhost:4321/news/2023/11/first-version-is-out./</guid>
-      <description>&lt;p&gt;We&amp;rsquo;re proud to announce the first version (&lt;code&gt;v0.1.0&lt;/code&gt;) of &lt;a&#xA;  href=&#34;https://github.com/hbstack/theme-cards&#34;&#xA;  &#xA;  target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;HB cards theme&lt;/a&gt; is available now.&lt;/p&gt;&#xA;&lt;p&gt;Please checkout out the &lt;a&#xA;  href=&#34;http://localhost:4321/docs/&#34;&#xA;  &#xA;  &gt;docs&lt;/a&gt; for installing the theme.&lt;/p&gt;</description>
+      <guid>http://localhost:4321/HBS/news/2023/11/first-version-is-out./</guid>
+      <description>&lt;p&gt;We&amp;rsquo;re proud to announce the first version (&lt;code&gt;v0.1.0&lt;/code&gt;) of &lt;a&#xA;  href=&#34;https://github.com/hbstack/theme-cards&#34;&#xA;  &#xA;  target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;HB cards theme&lt;/a&gt; is available now.&lt;/p&gt;&#xA;&lt;p&gt;Please checkout out the &lt;a&#xA;  href=&#34;http://localhost:4321/HBS/HBS/docs/&#34;&#xA;  &#xA;  &gt;docs&lt;/a&gt; for installing the theme.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

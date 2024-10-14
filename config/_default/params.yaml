@@ -86,7 +86,7 @@ hb:
         - blog
         - news
     giscus:
-      repo: hbstack/theme-cards
+      repo: dvesti/HBS
       repo_id: R_kgDOK1LmSQ
       category_id: DIC_kwDOK1LmSc4CbdiM
   docs:
@@ -103,7 +103,7 @@ hb:
   content_panel:
     repo:
       service: github # github or gitlab.
-      repo: hbstack/theme-cards
+      repo: dvesti/HBS
       branch: main
       subpath: exampleSite
   # gallery:

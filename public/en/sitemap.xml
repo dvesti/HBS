@@ -2,805 +2,847 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:4321/authors/</loc>
+    <loc>http://localhost:4321/HBS/authors/</loc>
     <lastmod>2023-12-02T11:47:31+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
+                hreflang="ru"
+                href="http://localhost:4321/HBS/ru/authors/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="zh-hans"
-                href="http://localhost:4321/zh-hans/authors/"
+                href="http://localhost:4321/HBS/zh-hans/authors/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:4321/authors/"
+                href="http://localhost:4321/HBS/authors/"
                 />
   </url><url>
-    <loc>http://localhost:4321/series/docs/</loc>
+    <loc>http://localhost:4321/HBS/series/docs/</loc>
     <lastmod>2023-12-02T11:47:31+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-hans"
-                href="http://localhost:4321/zh-hans/series/docs/"
+                href="http://localhost:4321/HBS/zh-hans/series/docs/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:4321/series/docs/"
+                href="http://localhost:4321/HBS/series/docs/"
                 />
   </url><url>
-    <loc>http://localhost:4321/docs/</loc>
+    <loc>http://localhost:4321/HBS/docs/</loc>
     <lastmod>2023-12-02T11:47:31+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-hans"
-                href="http://localhost:4321/zh-hans/docs/"
+                href="http://localhost:4321/HBS/zh-hans/docs/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:4321/docs/"
+                href="http://localhost:4321/HBS/docs/"
                 />
   </url><url>
-    <loc>http://localhost:4321/</loc>
+    <loc>http://localhost:4321/HBS/</loc>
+    <lastmod>2023-12-02T11:47:31+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="http://localhost:4321/HBS/ru/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-hans"
+                href="http://localhost:4321/HBS/zh-hans/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:4321/HBS/"
+                />
+  </url><url>
+    <loc>http://localhost:4321/HBS/authors/hb/</loc>
     <lastmod>2023-12-02T11:47:31+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-hans"
-                href="http://localhost:4321/zh-hans/"
+                href="http://localhost:4321/HBS/zh-hans/authors/hb/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:4321/"
+                href="http://localhost:4321/HBS/authors/hb/"
                 />
   </url><url>
-    <loc>http://localhost:4321/authors/hb/</loc>
+    <loc>http://localhost:4321/HBS/authors/hugomods/</loc>
     <lastmod>2023-12-02T11:47:31+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-hans"
-                href="http://localhost:4321/zh-hans/authors/hb/"
+                href="http://localhost:4321/HBS/zh-hans/authors/hugomods/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:4321/authors/hb/"
+                href="http://localhost:4321/HBS/authors/hugomods/"
                 />
   </url><url>
-    <loc>http://localhost:4321/authors/hugomods/</loc>
+    <loc>http://localhost:4321/HBS/docs/install-from-scratch/</loc>
     <lastmod>2023-12-02T11:47:31+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-hans"
-                href="http://localhost:4321/zh-hans/authors/hugomods/"
+                href="http://localhost:4321/HBS/zh-hans/docs/install-from-scratch/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:4321/authors/hugomods/"
+                href="http://localhost:4321/HBS/docs/install-from-scratch/"
                 />
   </url><url>
-    <loc>http://localhost:4321/docs/install-from-scratch/</loc>
+    <loc>http://localhost:4321/HBS/tags/installation/</loc>
     <lastmod>2023-12-02T11:47:31+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:4321/HBS/series/</loc>
+    <lastmod>2023-12-02T11:47:31+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="http://localhost:4321/HBS/ru/series/"
+                />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-hans"
-                href="http://localhost:4321/zh-hans/docs/install-from-scratch/"
+                href="http://localhost:4321/HBS/zh-hans/series/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:4321/docs/install-from-scratch/"
+                href="http://localhost:4321/HBS/series/"
                 />
   </url><url>
-    <loc>http://localhost:4321/tags/installation/</loc>
+    <loc>http://localhost:4321/HBS/tags/</loc>
     <lastmod>2023-12-02T11:47:31+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:4321/series/</loc>
-    <lastmod>2023-12-02T11:47:31+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="http://localhost:4321/HBS/ru/tags/"
+                />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-hans"
-                href="http://localhost:4321/zh-hans/series/"
+                href="http://localhost:4321/HBS/zh-hans/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:4321/series/"
+                href="http://localhost:4321/HBS/tags/"
                 />
   </url><url>
-    <loc>http://localhost:4321/tags/</loc>
-    <lastmod>2023-12-02T11:47:31+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-hans"
-                href="http://localhost:4321/zh-hans/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:4321/tags/"
-                />
-  </url><url>
-    <loc>http://localhost:4321/docs/migrate-from-starter-theme/</loc>
+    <loc>http://localhost:4321/HBS/docs/migrate-from-starter-theme/</loc>
     <lastmod>2023-12-01T11:47:31+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-hans"
-                href="http://localhost:4321/zh-hans/docs/migrate-from-starter-theme/"
+                href="http://localhost:4321/HBS/zh-hans/docs/migrate-from-starter-theme/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:4321/docs/migrate-from-starter-theme/"
+                href="http://localhost:4321/HBS/docs/migrate-from-starter-theme/"
                 />
   </url><url>
-    <loc>http://localhost:4321/tags/migration/</loc>
+    <loc>http://localhost:4321/HBS/tags/migration/</loc>
     <lastmod>2023-12-01T11:47:31+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/blog/</loc>
+    <loc>http://localhost:4321/HBS/blog/</loc>
     <lastmod>2023-11-26T16:36:24+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-hans"
-                href="http://localhost:4321/zh-hans/blog/"
+                href="http://localhost:4321/HBS/zh-hans/blog/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:4321/blog/"
+                href="http://localhost:4321/HBS/blog/"
                 />
   </url><url>
-    <loc>http://localhost:4321/categories/</loc>
+    <loc>http://localhost:4321/HBS/categories/</loc>
+    <lastmod>2023-11-26T16:36:24+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="http://localhost:4321/HBS/ru/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-hans"
+                href="http://localhost:4321/HBS/zh-hans/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:4321/HBS/categories/"
+                />
+  </url><url>
+    <loc>http://localhost:4321/HBS/tags/charts/</loc>
+    <lastmod>2023-11-26T16:36:24+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:4321/HBS/categories/content/</loc>
+    <lastmod>2023-11-26T16:36:24+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:4321/HBS/tags/diagrams/</loc>
+    <lastmod>2023-11-26T16:36:24+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:4321/HBS/blog/2023/11/diagrams-and-charts/</loc>
     <lastmod>2023-11-26T16:36:24+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-hans"
-                href="http://localhost:4321/zh-hans/categories/"
+                href="http://localhost:4321/HBS/zh-hans/blog/2023/11/%E5%9B%BE%E8%A1%A8/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:4321/categories/"
+                href="http://localhost:4321/HBS/blog/2023/11/diagrams-and-charts/"
                 />
   </url><url>
-    <loc>http://localhost:4321/tags/charts/</loc>
+    <loc>http://localhost:4321/HBS/series/examples/</loc>
     <lastmod>2023-11-26T16:36:24+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/categories/content/</loc>
-    <lastmod>2023-11-26T16:36:24+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:4321/tags/diagrams/</loc>
-    <lastmod>2023-11-26T16:36:24+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:4321/blog/2023/11/diagrams-and-charts/</loc>
+    <loc>http://localhost:4321/HBS/tags/katex/</loc>
     <lastmod>2023-11-26T16:36:24+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-hans"
-                href="http://localhost:4321/zh-hans/blog/2023/11/%E5%9B%BE%E8%A1%A8/"
+                href="http://localhost:4321/HBS/zh-hans/tags/katex/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:4321/blog/2023/11/diagrams-and-charts/"
+                href="http://localhost:4321/HBS/tags/katex/"
                 />
   </url><url>
-    <loc>http://localhost:4321/series/examples/</loc>
+    <loc>http://localhost:4321/HBS/tags/math/</loc>
     <lastmod>2023-11-26T16:36:24+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/tags/katex/</loc>
+    <loc>http://localhost:4321/HBS/blog/2023/11/math-typesetting/</loc>
     <lastmod>2023-11-26T16:36:24+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-hans"
-                href="http://localhost:4321/zh-hans/tags/katex/"
+                href="http://localhost:4321/HBS/zh-hans/blog/2023/11/%E6%95%B0%E5%AD%A6%E6%8E%92%E7%89%88/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:4321/tags/katex/"
+                href="http://localhost:4321/HBS/blog/2023/11/math-typesetting/"
                 />
   </url><url>
-    <loc>http://localhost:4321/tags/math/</loc>
-    <lastmod>2023-11-26T16:36:24+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:4321/blog/2023/11/math-typesetting/</loc>
+    <loc>http://localhost:4321/HBS/tags/mermaid/</loc>
     <lastmod>2023-11-26T16:36:24+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-hans"
-                href="http://localhost:4321/zh-hans/blog/2023/11/%E6%95%B0%E5%AD%A6%E6%8E%92%E7%89%88/"
+                href="http://localhost:4321/HBS/zh-hans/tags/mermaid/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:4321/blog/2023/11/math-typesetting/"
+                href="http://localhost:4321/HBS/tags/mermaid/"
                 />
   </url><url>
-    <loc>http://localhost:4321/tags/mermaid/</loc>
-    <lastmod>2023-11-26T16:36:24+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-hans"
-                href="http://localhost:4321/zh-hans/tags/mermaid/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:4321/tags/mermaid/"
-                />
-  </url><url>
-    <loc>http://localhost:4321/news/2023/11/first-version-is-out./</loc>
+    <loc>http://localhost:4321/HBS/news/2023/11/first-version-is-out./</loc>
     <lastmod>2023-11-26T16:26:40+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-hans"
-                href="http://localhost:4321/zh-hans/news/2023/11/%E9%A6%96%E4%B8%AA%E7%89%88%E6%9C%AC%E5%B7%B2%E5%8F%91%E5%B8%83/"
+                href="http://localhost:4321/HBS/zh-hans/news/2023/11/%E9%A6%96%E4%B8%AA%E7%89%88%E6%9C%AC%E5%B7%B2%E5%8F%91%E5%B8%83/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:4321/news/2023/11/first-version-is-out./"
+                href="http://localhost:4321/HBS/news/2023/11/first-version-is-out./"
                 />
   </url><url>
-    <loc>http://localhost:4321/news/</loc>
+    <loc>http://localhost:4321/HBS/news/</loc>
     <lastmod>2023-11-26T16:26:40+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-hans"
-                href="http://localhost:4321/zh-hans/news/"
+                href="http://localhost:4321/HBS/zh-hans/news/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:4321/news/"
+                href="http://localhost:4321/HBS/news/"
                 />
   </url><url>
-    <loc>http://localhost:4321/series/releases/</loc>
+    <loc>http://localhost:4321/HBS/series/releases/</loc>
     <lastmod>2023-11-26T16:26:40+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/tags/layouts/</loc>
+    <loc>http://localhost:4321/HBS/tags/layouts/</loc>
     <lastmod>2023-11-02T11:47:31+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/series/notes/</loc>
+    <loc>http://localhost:4321/HBS/series/notes/</loc>
     <lastmod>2023-11-02T11:47:31+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/notes/</loc>
-    <lastmod>2023-11-02T11:47:31+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-hans"
-                href="http://localhost:4321/zh-hans/notes/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:4321/notes/"
-                />
-  </url><url>
-    <loc>http://localhost:4321/notes/use-docs-layout-on-other-sections/</loc>
+    <loc>http://localhost:4321/HBS/notes/</loc>
     <lastmod>2023-11-02T11:47:31+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-hans"
-                href="http://localhost:4321/zh-hans/notes/use-docs-layout-on-other-sections/"
+                href="http://localhost:4321/HBS/zh-hans/notes/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:4321/notes/use-docs-layout-on-other-sections/"
+                href="http://localhost:4321/HBS/notes/"
                 />
   </url><url>
-    <loc>http://localhost:4321/blog/2022/09/example-post-without-images/</loc>
+    <loc>http://localhost:4321/HBS/notes/use-docs-layout-on-other-sections/</loc>
+    <lastmod>2023-11-02T11:47:31+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-hans"
+                href="http://localhost:4321/HBS/zh-hans/notes/use-docs-layout-on-other-sections/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:4321/HBS/notes/use-docs-layout-on-other-sections/"
+                />
+  </url><url>
+    <loc>http://localhost:4321/HBS/blog/2022/09/example-post-without-images/</loc>
     <lastmod>2022-09-10T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-hans"
-                href="http://localhost:4321/zh-hans/blog/2022/09/%E4%B8%8D%E5%B8%A6%E5%9B%BE%E7%89%87%E7%9A%84%E6%96%87%E7%AB%A0/"
+                href="http://localhost:4321/HBS/zh-hans/blog/2022/09/%E4%B8%8D%E5%B8%A6%E5%9B%BE%E7%89%87%E7%9A%84%E6%96%87%E7%AB%A0/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:4321/blog/2022/09/example-post-without-images/"
+                href="http://localhost:4321/HBS/blog/2022/09/example-post-without-images/"
                 />
   </url><url>
-    <loc>http://localhost:4321/tags/images/</loc>
+    <loc>http://localhost:4321/HBS/tags/images/</loc>
     <lastmod>2022-09-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/blog/2020/12/hello-r-markdown/</loc>
+    <loc>http://localhost:4321/HBS/blog/2020/12/hello-r-markdown/</loc>
     <lastmod>2020-12-01T21:13:14-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/tags/plot/</loc>
+    <loc>http://localhost:4321/HBS/tags/plot/</loc>
     <lastmod>2020-12-01T21:13:14-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/categories/r/</loc>
+    <loc>http://localhost:4321/HBS/categories/r/</loc>
     <lastmod>2020-12-01T21:13:14-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/tags/r-markdown/</loc>
+    <loc>http://localhost:4321/HBS/tags/r-markdown/</loc>
     <lastmod>2020-12-01T21:13:14-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/tags/regression/</loc>
+    <loc>http://localhost:4321/HBS/tags/regression/</loc>
     <lastmod>2020-12-01T21:13:14-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/archives/2021/</loc>
+    <loc>http://localhost:4321/HBS/archives/2021/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-hans"
-                href="http://localhost:4321/zh-hans/archives/2021/"
+                href="http://localhost:4321/HBS/zh-hans/archives/2021/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:4321/archives/2021/"
+                href="http://localhost:4321/HBS/archives/2021/"
                 />
   </url><url>
-    <loc>http://localhost:4321/archives/2022/</loc>
+    <loc>http://localhost:4321/HBS/archives/2022/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-hans"
-                href="http://localhost:4321/zh-hans/archives/2022/"
+                href="http://localhost:4321/HBS/zh-hans/archives/2022/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:4321/archives/2022/"
+                href="http://localhost:4321/HBS/archives/2022/"
                 />
   </url><url>
-    <loc>http://localhost:4321/archives/2023/</loc>
+    <loc>http://localhost:4321/HBS/archives/2023/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-hans"
-                href="http://localhost:4321/zh-hans/archives/2023/"
+                href="http://localhost:4321/HBS/zh-hans/archives/2023/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:4321/archives/2023/"
+                href="http://localhost:4321/HBS/archives/2023/"
                 />
   </url><url>
-    <loc>http://localhost:4321/archives/2021/04/</loc>
+    <loc>http://localhost:4321/HBS/archives/2021/04/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-hans"
-                href="http://localhost:4321/zh-hans/archives/2021/04/"
+                href="http://localhost:4321/HBS/zh-hans/archives/2021/04/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:4321/archives/2021/04/"
+                href="http://localhost:4321/HBS/archives/2021/04/"
                 />
   </url><url>
-    <loc>http://localhost:4321/archives/2022/04/</loc>
+    <loc>http://localhost:4321/HBS/archives/2022/04/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-hans"
-                href="http://localhost:4321/zh-hans/archives/2022/04/"
+                href="http://localhost:4321/HBS/zh-hans/archives/2022/04/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:4321/archives/2022/04/"
+                href="http://localhost:4321/HBS/archives/2022/04/"
                 />
   </url><url>
-    <loc>http://localhost:4321/archives/2023/04/</loc>
+    <loc>http://localhost:4321/HBS/archives/2023/04/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-hans"
-                href="http://localhost:4321/zh-hans/archives/2023/04/"
+                href="http://localhost:4321/HBS/zh-hans/archives/2023/04/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:4321/archives/2023/04/"
+                href="http://localhost:4321/HBS/archives/2023/04/"
                 />
   </url><url>
-    <loc>http://localhost:4321/archives/</loc>
+    <loc>http://localhost:4321/HBS/archives/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="http://localhost:4321/HBS/ru/archives/"
+                />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-hans"
-                href="http://localhost:4321/zh-hans/archives/"
+                href="http://localhost:4321/HBS/zh-hans/archives/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:4321/archives/"
+                href="http://localhost:4321/HBS/archives/"
                 />
   </url><url>
-    <loc>http://localhost:4321/archives/2021/08/</loc>
+    <loc>http://localhost:4321/HBS/archives/2021/08/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-hans"
-                href="http://localhost:4321/zh-hans/archives/2021/08/"
+                href="http://localhost:4321/HBS/zh-hans/archives/2021/08/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:4321/archives/2021/08/"
+                href="http://localhost:4321/HBS/archives/2021/08/"
                 />
   </url><url>
-    <loc>http://localhost:4321/archives/2022/08/</loc>
+    <loc>http://localhost:4321/HBS/archives/2022/08/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-hans"
-                href="http://localhost:4321/zh-hans/archives/2022/08/"
+                href="http://localhost:4321/HBS/zh-hans/archives/2022/08/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:4321/archives/2022/08/"
+                href="http://localhost:4321/HBS/archives/2022/08/"
                 />
   </url><url>
-    <loc>http://localhost:4321/archives/2023/08/</loc>
+    <loc>http://localhost:4321/HBS/archives/2023/08/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-hans"
-                href="http://localhost:4321/zh-hans/archives/2023/08/"
+                href="http://localhost:4321/HBS/zh-hans/archives/2023/08/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:4321/archives/2023/08/"
+                href="http://localhost:4321/HBS/archives/2023/08/"
                 />
   </url><url>
-    <loc>http://localhost:4321/archives/2021/12/</loc>
+    <loc>http://localhost:4321/HBS/archives/2020/12/</loc>
     <xhtml:link
                 rel="alternate"
-                hreflang="zh-hans"
-                href="http://localhost:4321/zh-hans/archives/2021/12/"
+                hreflang="ru"
+                href="http://localhost:4321/HBS/ru/archives/2020/12/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:4321/archives/2021/12/"
+                href="http://localhost:4321/HBS/archives/2020/12/"
                 />
   </url><url>
-    <loc>http://localhost:4321/archives/2022/12/</loc>
+    <loc>http://localhost:4321/HBS/archives/2021/12/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-hans"
-                href="http://localhost:4321/zh-hans/archives/2022/12/"
+                href="http://localhost:4321/HBS/zh-hans/archives/2021/12/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:4321/archives/2022/12/"
+                href="http://localhost:4321/HBS/archives/2021/12/"
                 />
   </url><url>
-    <loc>http://localhost:4321/archives/2023/12/</loc>
+    <loc>http://localhost:4321/HBS/archives/2022/12/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-hans"
-                href="http://localhost:4321/zh-hans/archives/2023/12/"
+                href="http://localhost:4321/HBS/zh-hans/archives/2022/12/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:4321/archives/2023/12/"
+                href="http://localhost:4321/HBS/archives/2022/12/"
                 />
   </url><url>
-    <loc>http://localhost:4321/archives/2021/02/</loc>
+    <loc>http://localhost:4321/HBS/archives/2023/12/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-hans"
-                href="http://localhost:4321/zh-hans/archives/2021/02/"
+                href="http://localhost:4321/HBS/zh-hans/archives/2023/12/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:4321/archives/2021/02/"
+                href="http://localhost:4321/HBS/archives/2023/12/"
                 />
   </url><url>
-    <loc>http://localhost:4321/archives/2022/02/</loc>
+    <loc>http://localhost:4321/HBS/archives/2021/02/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-hans"
-                href="http://localhost:4321/zh-hans/archives/2022/02/"
+                href="http://localhost:4321/HBS/zh-hans/archives/2021/02/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:4321/archives/2022/02/"
+                href="http://localhost:4321/HBS/archives/2021/02/"
                 />
   </url><url>
-    <loc>http://localhost:4321/archives/2023/02/</loc>
+    <loc>http://localhost:4321/HBS/archives/2022/02/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-hans"
-                href="http://localhost:4321/zh-hans/archives/2023/02/"
+                href="http://localhost:4321/HBS/zh-hans/archives/2022/02/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:4321/archives/2023/02/"
+                href="http://localhost:4321/HBS/archives/2022/02/"
                 />
   </url><url>
-    <loc>http://localhost:4321/archives/2021/01/</loc>
+    <loc>http://localhost:4321/HBS/archives/2023/02/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-hans"
-                href="http://localhost:4321/zh-hans/archives/2021/01/"
+                href="http://localhost:4321/HBS/zh-hans/archives/2023/02/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:4321/archives/2021/01/"
+                href="http://localhost:4321/HBS/archives/2023/02/"
                 />
   </url><url>
-    <loc>http://localhost:4321/archives/2022/01/</loc>
+    <loc>http://localhost:4321/HBS/archives/2021/01/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-hans"
-                href="http://localhost:4321/zh-hans/archives/2022/01/"
+                href="http://localhost:4321/HBS/zh-hans/archives/2021/01/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:4321/archives/2022/01/"
+                href="http://localhost:4321/HBS/archives/2021/01/"
                 />
   </url><url>
-    <loc>http://localhost:4321/archives/2023/01/</loc>
+    <loc>http://localhost:4321/HBS/archives/2022/01/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-hans"
-                href="http://localhost:4321/zh-hans/archives/2023/01/"
+                href="http://localhost:4321/HBS/zh-hans/archives/2022/01/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:4321/archives/2023/01/"
+                href="http://localhost:4321/HBS/archives/2022/01/"
                 />
   </url><url>
-    <loc>http://localhost:4321/archives/2021/07/</loc>
+    <loc>http://localhost:4321/HBS/archives/2023/01/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-hans"
-                href="http://localhost:4321/zh-hans/archives/2021/07/"
+                href="http://localhost:4321/HBS/zh-hans/archives/2023/01/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:4321/archives/2021/07/"
+                href="http://localhost:4321/HBS/archives/2023/01/"
                 />
   </url><url>
-    <loc>http://localhost:4321/archives/2022/07/</loc>
+    <loc>http://localhost:4321/HBS/archives/2021/07/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-hans"
-                href="http://localhost:4321/zh-hans/archives/2022/07/"
+                href="http://localhost:4321/HBS/zh-hans/archives/2021/07/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:4321/archives/2022/07/"
+                href="http://localhost:4321/HBS/archives/2021/07/"
                 />
   </url><url>
-    <loc>http://localhost:4321/archives/2023/07/</loc>
+    <loc>http://localhost:4321/HBS/archives/2022/07/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-hans"
-                href="http://localhost:4321/zh-hans/archives/2023/07/"
+                href="http://localhost:4321/HBS/zh-hans/archives/2022/07/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:4321/archives/2023/07/"
+                href="http://localhost:4321/HBS/archives/2022/07/"
                 />
   </url><url>
-    <loc>http://localhost:4321/archives/2021/06/</loc>
+    <loc>http://localhost:4321/HBS/archives/2023/07/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-hans"
-                href="http://localhost:4321/zh-hans/archives/2021/06/"
+                href="http://localhost:4321/HBS/zh-hans/archives/2023/07/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:4321/archives/2021/06/"
+                href="http://localhost:4321/HBS/archives/2023/07/"
                 />
   </url><url>
-    <loc>http://localhost:4321/archives/2022/06/</loc>
+    <loc>http://localhost:4321/HBS/archives/2021/06/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-hans"
-                href="http://localhost:4321/zh-hans/archives/2022/06/"
+                href="http://localhost:4321/HBS/zh-hans/archives/2021/06/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:4321/archives/2022/06/"
+                href="http://localhost:4321/HBS/archives/2021/06/"
                 />
   </url><url>
-    <loc>http://localhost:4321/archives/2023/06/</loc>
+    <loc>http://localhost:4321/HBS/archives/2022/06/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-hans"
-                href="http://localhost:4321/zh-hans/archives/2023/06/"
+                href="http://localhost:4321/HBS/zh-hans/archives/2022/06/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:4321/archives/2023/06/"
+                href="http://localhost:4321/HBS/archives/2022/06/"
                 />
   </url><url>
-    <loc>http://localhost:4321/archives/2021/03/</loc>
+    <loc>http://localhost:4321/HBS/archives/2023/06/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-hans"
-                href="http://localhost:4321/zh-hans/archives/2021/03/"
+                href="http://localhost:4321/HBS/zh-hans/archives/2023/06/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:4321/archives/2021/03/"
+                href="http://localhost:4321/HBS/archives/2023/06/"
                 />
   </url><url>
-    <loc>http://localhost:4321/archives/2022/03/</loc>
+    <loc>http://localhost:4321/HBS/archives/2021/03/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-hans"
-                href="http://localhost:4321/zh-hans/archives/2022/03/"
+                href="http://localhost:4321/HBS/zh-hans/archives/2021/03/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:4321/archives/2022/03/"
+                href="http://localhost:4321/HBS/archives/2021/03/"
                 />
   </url><url>
-    <loc>http://localhost:4321/archives/2023/03/</loc>
+    <loc>http://localhost:4321/HBS/archives/2022/03/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-hans"
-                href="http://localhost:4321/zh-hans/archives/2023/03/"
+                href="http://localhost:4321/HBS/zh-hans/archives/2022/03/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:4321/archives/2023/03/"
+                href="http://localhost:4321/HBS/archives/2022/03/"
                 />
   </url><url>
-    <loc>http://localhost:4321/archives/2021/05/</loc>
+    <loc>http://localhost:4321/HBS/archives/2023/03/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-hans"
-                href="http://localhost:4321/zh-hans/archives/2021/05/"
+                href="http://localhost:4321/HBS/zh-hans/archives/2023/03/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:4321/archives/2021/05/"
+                href="http://localhost:4321/HBS/archives/2023/03/"
                 />
   </url><url>
-    <loc>http://localhost:4321/archives/2022/05/</loc>
+    <loc>http://localhost:4321/HBS/archives/2021/05/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-hans"
-                href="http://localhost:4321/zh-hans/archives/2022/05/"
+                href="http://localhost:4321/HBS/zh-hans/archives/2021/05/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:4321/archives/2022/05/"
+                href="http://localhost:4321/HBS/archives/2021/05/"
                 />
   </url><url>
-    <loc>http://localhost:4321/archives/2023/05/</loc>
+    <loc>http://localhost:4321/HBS/archives/2022/05/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-hans"
-                href="http://localhost:4321/zh-hans/archives/2023/05/"
+                href="http://localhost:4321/HBS/zh-hans/archives/2022/05/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:4321/archives/2023/05/"
+                href="http://localhost:4321/HBS/archives/2022/05/"
                 />
   </url><url>
-    <loc>http://localhost:4321/archives/2021/11/</loc>
+    <loc>http://localhost:4321/HBS/archives/2023/05/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-hans"
-                href="http://localhost:4321/zh-hans/archives/2021/11/"
+                href="http://localhost:4321/HBS/zh-hans/archives/2023/05/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:4321/archives/2021/11/"
+                href="http://localhost:4321/HBS/archives/2023/05/"
                 />
   </url><url>
-    <loc>http://localhost:4321/archives/2022/11/</loc>
+    <loc>http://localhost:4321/HBS/archives/2021/11/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-hans"
-                href="http://localhost:4321/zh-hans/archives/2022/11/"
+                href="http://localhost:4321/HBS/zh-hans/archives/2021/11/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:4321/archives/2022/11/"
+                href="http://localhost:4321/HBS/archives/2021/11/"
                 />
   </url><url>
-    <loc>http://localhost:4321/archives/2023/11/</loc>
+    <loc>http://localhost:4321/HBS/archives/2022/11/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-hans"
-                href="http://localhost:4321/zh-hans/archives/2023/11/"
+                href="http://localhost:4321/HBS/zh-hans/archives/2022/11/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:4321/archives/2023/11/"
+                href="http://localhost:4321/HBS/archives/2022/11/"
                 />
   </url><url>
-    <loc>http://localhost:4321/archives/2021/10/</loc>
+    <loc>http://localhost:4321/HBS/archives/2023/11/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-hans"
-                href="http://localhost:4321/zh-hans/archives/2021/10/"
+                href="http://localhost:4321/HBS/zh-hans/archives/2023/11/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:4321/archives/2021/10/"
+                href="http://localhost:4321/HBS/archives/2023/11/"
                 />
   </url><url>
-    <loc>http://localhost:4321/archives/2022/10/</loc>
+    <loc>http://localhost:4321/HBS/archives/2021/10/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-hans"
-                href="http://localhost:4321/zh-hans/archives/2022/10/"
+                href="http://localhost:4321/HBS/zh-hans/archives/2021/10/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:4321/archives/2022/10/"
+                href="http://localhost:4321/HBS/archives/2021/10/"
                 />
   </url><url>
-    <loc>http://localhost:4321/archives/2023/10/</loc>
+    <loc>http://localhost:4321/HBS/archives/2022/10/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-hans"
-                href="http://localhost:4321/zh-hans/archives/2023/10/"
+                href="http://localhost:4321/HBS/zh-hans/archives/2022/10/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:4321/archives/2023/10/"
+                href="http://localhost:4321/HBS/archives/2022/10/"
                 />
   </url><url>
-    <loc>http://localhost:4321/archives/2021/09/</loc>
+    <loc>http://localhost:4321/HBS/archives/2023/10/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-hans"
-                href="http://localhost:4321/zh-hans/archives/2021/09/"
+                href="http://localhost:4321/HBS/zh-hans/archives/2023/10/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:4321/archives/2021/09/"
+                href="http://localhost:4321/HBS/archives/2023/10/"
                 />
   </url><url>
-    <loc>http://localhost:4321/archives/2022/09/</loc>
+    <loc>http://localhost:4321/HBS/archives/2021/09/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-hans"
-                href="http://localhost:4321/zh-hans/archives/2022/09/"
+                href="http://localhost:4321/HBS/zh-hans/archives/2021/09/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:4321/archives/2022/09/"
+                href="http://localhost:4321/HBS/archives/2021/09/"
                 />
   </url><url>
-    <loc>http://localhost:4321/archives/2023/09/</loc>
+    <loc>http://localhost:4321/HBS/archives/2022/09/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-hans"
-                href="http://localhost:4321/zh-hans/archives/2023/09/"
+                href="http://localhost:4321/HBS/zh-hans/archives/2022/09/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:4321/archives/2023/09/"
+                href="http://localhost:4321/HBS/archives/2022/09/"
+                />
+  </url><url>
+    <loc>http://localhost:4321/HBS/archives/2023/09/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-hans"
+                href="http://localhost:4321/HBS/zh-hans/archives/2023/09/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:4321/HBS/archives/2023/09/"
                 />
   </url>
 </urlset>

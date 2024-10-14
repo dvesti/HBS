@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on HBS</title>
+    <link>https://dvesti.github.io/HBS/en/tags/</link>
+    <description>Recent content in Tags on HBS</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>Copyright © 2024-2024 Hugo Modules and HB Framework. All Rights Reserved.</copyright>
+    <lastBuildDate>Sat, 02 Dec 2023 11:47:31 +0800</lastBuildDate>
+    <atom:link href="https://dvesti.github.io/HBS/en/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Installation</title>
+      <link>https://dvesti.github.io/HBS/en/tags/installation/</link>
+      <pubDate>Sat, 02 Dec 2023 11:47:31 +0800</pubDate>
+      <guid>https://dvesti.github.io/HBS/en/tags/installation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Migration</title>
+      <link>https://dvesti.github.io/HBS/en/tags/migration/</link>
+      <pubDate>Fri, 01 Dec 2023 11:47:31 +0800</pubDate>
+      <guid>https://dvesti.github.io/HBS/en/tags/migration/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Charts</title>
+      <link>https://dvesti.github.io/HBS/en/tags/charts/</link>
+      <pubDate>Sun, 26 Nov 2023 16:36:24 +0800</pubDate>
+      <guid>https://dvesti.github.io/HBS/en/tags/charts/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Diagrams</title>
+      <link>https://dvesti.github.io/HBS/en/tags/diagrams/</link>
+      <pubDate>Sun, 26 Nov 2023 16:36:24 +0800</pubDate>
+      <guid>https://dvesti.github.io/HBS/en/tags/diagrams/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>KaTeX</title>
+      <link>https://dvesti.github.io/HBS/en/tags/katex/</link>
+      <pubDate>Sun, 26 Nov 2023 16:36:24 +0800</pubDate>
+      <guid>https://dvesti.github.io/HBS/en/tags/katex/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Math</title>
+      <link>https://dvesti.github.io/HBS/en/tags/math/</link>
+      <pubDate>Sun, 26 Nov 2023 16:36:24 +0800</pubDate>
+      <guid>https://dvesti.github.io/HBS/en/tags/math/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mermaid</title>
+      <link>https://dvesti.github.io/HBS/en/tags/mermaid/</link>
+      <pubDate>Sun, 26 Nov 2023 16:36:24 +0800</pubDate>
+      <guid>https://dvesti.github.io/HBS/en/tags/mermaid/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Layouts</title>
+      <link>https://dvesti.github.io/HBS/en/tags/layouts/</link>
+      <pubDate>Thu, 02 Nov 2023 11:47:31 +0800</pubDate>
+      <guid>https://dvesti.github.io/HBS/en/tags/layouts/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Images</title>
+      <link>https://dvesti.github.io/HBS/en/tags/images/</link>
+      <pubDate>Sat, 10 Sep 2022 00:00:00 +0000</pubDate>
+      <guid>https://dvesti.github.io/HBS/en/tags/images/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Plot</title>
+      <link>https://dvesti.github.io/HBS/en/tags/plot/</link>
+      <pubDate>Tue, 01 Dec 2020 21:13:14 -0500</pubDate>
+      <guid>https://dvesti.github.io/HBS/en/tags/plot/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>R Markdown</title>
+      <link>https://dvesti.github.io/HBS/en/tags/r-markdown/</link>
+      <pubDate>Tue, 01 Dec 2020 21:13:14 -0500</pubDate>
+      <guid>https://dvesti.github.io/HBS/en/tags/r-markdown/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Regression</title>
+      <link>https://dvesti.github.io/HBS/en/tags/regression/</link>
+      <pubDate>Tue, 01 Dec 2020 21:13:14 -0500</pubDate>
+      <guid>https://dvesti.github.io/HBS/en/tags/regression/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
