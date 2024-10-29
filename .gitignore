@@ -2,8 +2,7 @@
 Thumbs.db
 .hugo_build.lock
 
- /public/
- /resources/
+/public/
+/resources/
  
- 
-.Rproj.user
+.Rproj.user/*
