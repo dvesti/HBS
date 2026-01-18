@@ -6,3 +6,7 @@ Thumbs.db
 /resources/
  
 .Rproj.user/*
+.Rproj.user
+
+
+node_modules/

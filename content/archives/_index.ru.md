@@ -8,5 +8,5 @@ menu:
         name: archive
         vendor: bs
     parent: blog
-title: Archives
+title: Архив #Archives
 ---

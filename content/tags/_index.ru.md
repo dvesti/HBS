@@ -8,5 +8,5 @@ menu:
         name: tags
         vendor: bs
     parent: blog
-title: Tags
+title: Тэги #Tags
 ---

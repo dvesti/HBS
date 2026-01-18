@@ -1,4 +1,5 @@
 ---
+lang: ru
 authors:
 - HB
 - HugoMods
