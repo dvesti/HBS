@@ -18354,7 +18354,7 @@ packages:
       progress: 2.0.3
       proxy-from-env: 1.1.0
       rimraf: 3.0.2
-      tar-fs: 2.1.1
+      tar-fs: 2.1.2
       unbzip2-stream: 1.4.3
       ws: 7.5.9
     transitivePeerDependencies:
@@ -20499,7 +20499,7 @@ packages:
     engines: {node: '>=6'}
     dev: true
 
-  /tar-fs@2.1.1:
+  /tar-fs@2.1.2:
     resolution: {integrity: sha512-V0r2Y9scmbDRLCNex/+hYzvp/zyYjvFbHPNgVTKfQvVrb6guiE/fxP+XblDNR011utopbkex2nM4dHNV6GDsng==}
     dependencies:
       chownr: 1.1.4
