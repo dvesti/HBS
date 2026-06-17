@@ -46,7 +46,7 @@
     "jest": "^22.4.4",
     "prettier": "^2.8.8",
     "svgo": "^0.7.2",
-    "webpack": "^4.8.3",
+    "webpack": "^5.107.2",
     "webpack-cli": "^6.0.1"
   },
   "prettier": {
